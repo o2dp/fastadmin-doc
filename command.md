@@ -45,7 +45,7 @@ php think crud -t test --relation=category --relation=admin --relationforeignkey
 ### 参数介绍
 
 ```bash
--t, --table=TABLE                              表名，带不表前缀均可
+-t, --table=TABLE                              表名，带不带表前缀均可
 -c, --controller[=CONTROLLER]                  生成的控制器名,可选,默认根据表名进行自动解析
 -m, --model[=MODEL]                            生成的模型名,可选,默认根据表名进行自动解析
 -i, --fields[=FIELDS]                          生成的数据列表中可见的字段，默认是全部

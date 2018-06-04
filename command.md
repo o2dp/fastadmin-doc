@@ -50,7 +50,7 @@ php think crud -t test --relation=category --relation=admin --relationforeignkey
 -m, --model[=MODEL]                            生成的模型名,可选,默认根据表名进行自动解析
 -i, --fields[=FIELDS]                          生成的数据列表中可见的字段，默认是全部
 -f, --force[=FORCE]                            是否覆盖模式,如果目标位置已经有对应的控制器或模型会提示
--l, --local[=LOCAL]                            是否本地模型,默认1,置为0时,模型将生成在common模块下
+-l, --local[=LOCAL]                            是否本地模型,默认1,值为0时,模型将生成在common模块下
 -r, --relation[=RELATION]                      关联模型表名，带不带表前缀均可
 -e, --relationmodel[=RELATIONMODEL]            生成的关联模型名,可选,默认根据表名进行自动解析
 -k, --relationforeignkey[=RELATIONFOREIGNKEY]  表外键,可选,默认会识别为使用 模型_id 名称
